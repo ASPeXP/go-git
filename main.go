@@ -14,10 +14,15 @@ func sub(a, b int) int {
 func div(a, b int) int {
 	return a / b
 }
+
+func display(msg string) {
+	fmt.Println(msg)
+}
 func main() {
 	fmt.Println("Hello, Github")
 	fmt.Println(sum(1, 2))
 	fmt.Println(multi(3, 2))
 	fmt.Println(sub(1, 2))
 	fmt.Println(div(1, 2))
+	display("Hello GitFlow from Me")
 }
