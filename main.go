@@ -11,9 +11,13 @@ func multi(a, b int) int {
 func sub(a, b int) int {
 	return a - b
 }
+func div(a, b int) int {
+	return a / b
+}
 func main() {
 	fmt.Println("Hello, Github")
 	fmt.Println(sum(1, 2))
 	fmt.Println(multi(3, 2))
 	fmt.Println(sub(1, 2))
+	fmt.Println(div(1, 2))
 }
